@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript."
+title: "Computational code for Coupling-Induced Multistability, Re-entrant Dynamics, and Chaotic Temporal Switching in Mutually Coupled Third-Order Phase-Locked Loops"
+type: software
+authors:
+  - family-names: Ismail
+    given-names: Hamid
+  - family-names: Harb
+    given-names: Ahmad
+  - family-names: Bikdash
+    given-names: Marwan
+version: 1.0.0
+date-released: 2026-10-06
