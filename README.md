@@ -62,6 +62,21 @@ python scripts/p01_rotating_frame_validation.py
 
 Several continuation/refinement programs intentionally require explicit upstream report paths. This prevents a script from silently consuming the wrong historical result. Use `python scripts/<name>.py --help` for the required inputs.
 
+## Reproducibility pipeline
+
+The recommended entry point is the top-level pipeline runner:
+
+```bash
+python run_pipeline.py --check       # validate environment and syntax
+python run_pipeline.py --list        # show ordered stages
+python run_pipeline.py --full --dry-run  # preview the complete workflow
+python run_pipeline.py --analysis    # run all retained P-series analyses
+python run_pipeline.py --figures     # rebuild figures from existing freezes
+python run_pipeline.py --full        # analyses followed by all final figures
+```
+
+Long checkpoint-aware stages can be continued with `--resume`. The runner records the Git commit, commands, status, and runtime under `results/logs/`. See `docs/PIPELINE.md` for details.
+
 ## Manuscript data freezes
 
 After P00–P63 outputs are available:
