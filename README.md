@@ -1,5 +1,7 @@
 # Coupled-PLL-Dynamics
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23227914.svg)](https://doi.org/10.5281/zenodo.23227914)
+
 ## Coupling-Induced Multistability, Re-entrant Dynamics, and Chaotic Temporal Switching in Mutually Coupled Third-Order Phase-Locked Loops
 
 **Reproducibility repository for the numerical analyses and final manuscript figures.**
@@ -314,7 +316,7 @@ For additional repository decisions, see `docs/REPOSITORY_AUDIT.md`.
 
 ## Citation
 
-If you use this repository in research, please cite the associated manuscript and software repository.
+If you use this repository in research, please cite the software repository and the associated manuscript.
 
 Machine-readable citation metadata are provided in:
 
@@ -326,7 +328,7 @@ The manuscript associated with this repository is:
 
 > **Coupling-Induced Multistability, Re-entrant Dynamics, and Chaotic Temporal Switching in Mutually Coupled Third-Order Phase-Locked Loops**
 
-The final DOI and archival release information can be added after publication/acceptance. A tagged GitHub release may also be archived with Zenodo to provide a persistent software DOI.
+The software release is permanently archived on Zenodo with DOI [10.5281/zenodo.23227914](https://doi.org/10.5281/zenodo.23227914).
 
 ---
 
